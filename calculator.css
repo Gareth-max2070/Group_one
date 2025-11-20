@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(10, 9, 15);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+label {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+label:hover {
+    color: #3b57b4;
+}
+
+.form_page {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form_page input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(46, 48, 53);
+}
+
+.form_page input::placeholder {
+    color: whitesmoke;
+}
+
+.form_page input:hover {
+    background-color: #3b57b4;
+    color: white;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3b57b4;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #2a3e8c;
+}
