@@ -1,38 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade Calculato</title>
-    <link rel="stylesheet" href="calculator.css">
+    <title>STUDENTS CALCULATOR APP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <section class="container">
-        <h2>Student Grade Calculator</h2>
-        <form class="form_page" id="form">
-            <label for="name">Student Name</label>
-            <input type="text" id="name" placeholder="Students Full Name">
-            <p id="error4" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
-            <label for="Physics">PHYSICS</label>
-            <input type="text" id="first_subject" placeholder="Input Physics Score">
-            <p id="error1" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
-            <label for="Math">MATHEMATICS</label>
-            <input type="text" id="second_subject" placeholder="Input  Mathematics Score">
-            <p id="error2" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
-            <label for="chem">CHEMISTRY</label>
-            <input type="text" id="third_subject" placeholder="Input Chemistry Score">
-            <p id="error3" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
-            <button id="calculate_btn" class="btn">Calculate</button>
-        </form>
-        <p id="s_name">
-        <p id="total" style="color: green;"></p>
-        <p id="error" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
-        <p id="average" style="color: blue;"></p>
-        <p id="grade" style="color: purple;"></p>
-    </section>
-    <script src="calculator.js"></script>
-</body>
+    <div class="conatiner">
+        <h2 id="resultscalculator">CALCULATE RESULTS</h2><br>
+       
+        <div class="flex-box">
+            <div class="card">
+                <div class="iput">
+                    <div style="background-color:rgba(255, 228, 196, 0.63); padding: 20px; border-radius: 5px; width: 300px; margin: auto;">
+                                <input type="number" id="science" placeholder="Science"><br><br>
+        <input type="number" id="mathematics" placeholder="Mathematics"><br><br>
+        <input type="number" id="english" placeholder="English"><br><br>
+        <input type="number" id="social-studies" placeholder="Social-studies"><br><br>
+        <input type="number" id="french" placeholder="French"><br><br>
+        <input type="number" id="economics" placeholder="Economics"><br><br>
 
+        <div><button id="submit">Calculate Marks</button></div><br>
+                    </div><br>
+                          
+                    <div><button id="reset">Reset</button></div>
+
+                    <p id="message"></p>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
