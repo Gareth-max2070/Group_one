@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>Student Grade calculator</h1>
+    <b><p>Enter scores for 3 subjects</p></b>
+    <form style="width: 200px; margin: auto; border: solid 1px padding 0 1em; align-content: center;" id="gradeform"></form>
+    
+        <label for ="Maths"><b>Maths</b></label><br>
+        <input id="Maths" type="number" min= "01"max="100" placeholder="0-100"><br><br><br>
+        <label for ="English Language"><b>English</b></label><br>
+        <input id="English" type="number" min="01" max="100" placeholder="0-100"><br><br><br>
+        <label for ="Science"><b>Science</b></label><br>
+        <input id="Science" type="number" min="01" max="100" placeholder="0-100"><br><br><br>
+        <button id="calculateBtn" type="submit">Calculate</button><br><br><br>
+        <button id="resetBtn" type="button">Reset</button><br>
+        <p id="message"></p>
+    </form>
+    <section id="results" class="results" hidden>
+        <p><strong>Total:</strong><id="total"></id></p>
+        <p><strong>Average:</strong><id="average"></id></p>
+        <p><strong>Grade:</strong><id="grade"></id></p>
+        <p><strong>Remark:</strong><id="remark"></id></p> 
+    </section>
+    <script src="calculator.js"></script>   
+</body>
+</html>
