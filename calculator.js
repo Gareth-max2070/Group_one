@@ -81,7 +81,31 @@ document.getElementById("form").addEventListener("submit", (event) => {
 
 });
 
+document.getElementById("name").addEventListener("input", () => {
+    document.getElementById("error4").textContent = "";
+});
+
+document.getElementById("first_subject").addEventListener("input", () => {
+    document.getElementById("error1").textContent = "";
+});
+document.getElementById("second_subject").addEventListener("input", () => {
+    document.getElementById("error2").textContent = "";
+});
+document.getElementById("third_subject").addEventListener("input", () => {
+    document.getElementById("error3").textContent = "";
+});
 
 
-
+document.getElementById("name").addEventListener("keyup", () => {
+    document.getElementById("error4").textContent = "";
+});
+document.getElementById("first_subject").addEventListener("keyup", () => {
+    document.getElementById("error1").textContent = "";
+});
+document.getElementById("second_subject").addEventListener("keyup", () => {
+    document.getElementById("error2").textContent = "";
+});
+document.getElementById("third_subject").addEventListener("keyup", () => {
+    document.getElementById("error3").textContent = "";
+});
 
