@@ -42,7 +42,7 @@ label:hover {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    background-color: rgb(46, 48, 53);
+    background-color: rgb(234, 235, 238);
 }
 
 .form_page input::placeholder {
@@ -67,4 +67,5 @@ label:hover {
 
 .btn:hover {
     background-color: #2a3e8c;
+    color: gold;
 }
