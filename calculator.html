@@ -14,8 +14,6 @@
         <form class="form_page" id="form">
             <b><h2>Student Grade Calculator</h2></b>
             <label for="name">Student Name</label>
-            <input type="text" id="name" placeholder="Students Full Name">
-            <p id="error4" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
             <label for="Physics">PHYSICS</label>
             <input type="text" id="first_subject" placeholder="Input Physics Score">
             <p id="error1" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
@@ -25,9 +23,11 @@
             <label for="chem">CHEMISTRY</label>
             <input type="text" id="third_subject" placeholder="Input Chemistry Score">
             <p id="error3" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
+            <input type="text" id="name" placeholder="Students Full Name">
+            <p id="error4" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
             <button id="calculate_btn" class="btn">Calculate</button>
         </form>
-        <p id="s_name">
+        <p id="s_name"></p>
         <p id="total" style="color: green;"></p>
         <p id="error" style="color: red; font-size: medium; font-family: 'Times New Roman', Times, serif;"></p>
         <p id="average" style="color: blue;"></p>
@@ -35,5 +35,4 @@
     </section>
     <script src="calculator.js"></script>
 </body>
-
 </html>
