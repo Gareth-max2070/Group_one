@@ -42,7 +42,8 @@ label:hover {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    background-color: rgb(234, 235, 238);
+    background-color: rgb(46, 48, 53);
+    
 }
 
 .form_page input::placeholder {
