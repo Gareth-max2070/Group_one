@@ -6,6 +6,7 @@ body {
     height: 100vh;
 }
 
+
 .container {
     background-color: rgb(10, 9, 15);
     width: 400px;
@@ -35,6 +36,8 @@ label:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-self: start;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .form_page input {
@@ -60,7 +63,7 @@ label:hover {
     border-radius: 5px;
     font-size: 16px;
     background-color: #3b57b4;
-    color: black;
+    color: rgb(219, 17, 17);
     cursor: pointer;
     margin-top: 20px;
 }
